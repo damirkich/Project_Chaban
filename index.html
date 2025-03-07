@@ -4,72 +4,180 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
-    <header>
-        <img src="./img/logo.png" alt="logo">
-        <ul>
-            <li><a href="">About us</a></li>
-            <li><a href="">Our Products</a></li>
-            <li><a href="">Prices</a></li>
-            <li><a href="">Bestsellers</a></li>
-            <li><a href="">Reviews</a></li>
-            <li><a href="">Contacts</a></li>
-        </ul>
+    <header class="header">
+        <img class="header-logo" src="./img/logo.png" alt="logo">
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a class="header-nav-link" href="">About us</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="">Our Products</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="">Prices</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="">Bestsellers</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="">Reviews</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section>
-            <h1>Modern and Minimalist <br>
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero-title">Modern and Minimalist <br>
             Furniture For You</h1>
-            <p>Add a touch of elegance to your space <br>
+            <p class="hero-desc">Add a touch of elegance to your space <br>
                 with handcrafted furniture pieces</p>
-                <button>Subscribe</button>
+                <button class="hero-sub">Subscribe</button>
         </section>
 
-        <section>
-            <h3>About us</h3>
-            <h2>Our сraftsmanship: сreating unique <br>
+        <section class="about-us">
+            <h3 class="about-us-title">About us</h3>
+            <h2 class="about-us-subtitle">Our сraftsmanship: сreating unique <br>
                  handmade furniture</h2>
-                <p>Discover the inspiration behind our modern and minimalist designs, and see <br>
+                <p class="about-us-desc">Discover the inspiration behind our modern and minimalist designs, and see <br>
                      how we bring them to life through our skilled craftsmanship.</p>
-                     <h2>5+</h2>
-                     <p>Years of experience <br>
-                        creating handcrafted <br>
-                        furniture</p>
-                     <h2>100%</h2>
-                     <p>Sustainably sourced <br>
-                        materials used in all <br>
-                        of our furniture </p>
-                     <h2>500+</h2>
-                     <p>Unique furniture <br>
-                        designs crafted by <br>
-                        our skilled artisans</p>
+                     <div class="about-us-facts">
+                        <h2 class="about-us-fact-title">5+</h2>
+                        <p class="about-us-item-desc">Years of experience <br>
+                           creating handcrafted <br>
+                           furniture</p>
+                     </div>
+                     <div class="about-us-facts">
+                        <h2 class="about-us-fact-title">100%</h2>
+                        <p class="about-us-item-desc">Sustainably sourced <br>
+                           materials used in all <br>
+                           of our furniture </p>
+                     </div>
+                        <div class="about-us-facts">
+                            <h2 class="about-us-fact-title">500+</h2>
+                            <p class="about-us-item-desc">Unique furniture <br>
+                               designs crafted by <br>
+                               our skilled artisans</p>
+                        </div>
         </section>
-        <section>
+        <section class="products">
             <hr>
-            <h2>Chairs</h2>
-            <h3>from 200₴</h3>
+            <h2 class="product-title">Chairs</h2>
+            <h3 class="product-price">from 200₴</h3>
             <hr>
-            <h2>Tables</h2>
-            <h3>from 250₴</h3>
+            <h2 class="product-title">Tables</h2>
+            <h3 class="product-price">from 250₴</h3>
             <hr>
-            <h2>Dressers</h2>
-            <h3>from 300</h3>
+            <h2 class="product-title">Dressers</h2>
+            <h3 class="product-price">from 300</h3>
             <hr>
-            <h2>Sofas</h2>
-            <h3>from 500₴</h3>
+            <h2 class="product-title">Sofas</h2>
+            <h3 class="product-price">from 500₴</h3>
             <hr>
         </section>
-        <section>
-            <h2>Our Products</h2>
-            <ul>
-                <li><img src="./img/pic1.png" alt="table"><p></p></li>
-                <li><img src="./img/pic2.png" alt=""><p></p></li>
-                <li><img src="./img/pic3.png" alt=""><p></p></li>
-                <li><img src="./img/pic4.png" alt=""><p></p></li>
+        <section class="our-products">
+            <h2 class="our-products-title">Our Products</h2>
+            <ul class="our-products-list">
+                <li class="our-products-item"><img class="our-products-picture" src="./img/pic1.png" alt="table"><p class="our-products-item-desc">Minimalist storage solutions</p></li>
+                <li class="our-products-item"><img class="our-products-picture" src="./img/pic2.png" alt="sofa"><p class="our-products-item-desc">Handcrafted minimalist seating</p></li>
+                <li class="our-products-item"><img class="our-products-picture" src="./img/pic3.png" alt="table2"><p class="our-products-item-desc">Sleek and simple tables</p></li>
+                <li class="our-products-item"><img class="our-products-picture" src="./img/pic4.png" alt="chairlol"><p class="our-products-item-desc">Minimalist seating for every space</p></li>
             </ul>
         </section>
+        <section class="bestsellers">
+            <h2 class="bestsellers-title">Bestsellers</h2>
+            <ul class="bestsellers-list">
+                <li class="bestsellers-list-item"><img class="bestsellers-item-pic" src="./img/pic9.png" alt="bed">
+                    <p class="bestsellers-item-desc">The modern platform bed</p>
+                    <h3 class="bestsellers-item-price">750$</h3>
+                </li>
+                <li class="bestsellers-list-item"><img class="bestsellers-item-pic" src="./img/pic10.png" alt="chair">
+                    <p class="bestsellers-item-desc">The Cozy Lounge Chair</p>
+                    <h3 class="bestsellers-item-price">230$</h3>
+                </li>
+                <li class="bestsellers-list-item"><img class="bestsellers-item-pic" src="./img/pic11.png" alt="chair2">
+                    <p class="bestsellers-item-desc">The industrial accent chair</p>
+                    <h3 class="bestsellers-item-price">250$</h3>
+                </li>
+                <li class="bestsellers-list-item"><img class="bestsellers-item-pic" src="./img/pic12.png" alt="stand">
+                    <p class="bestsellers-item-desc">The sleek stand</p>
+                    <h3 class="bestsellers-item-price">300$</h3>
+                </li>
+                <li class="bestsellers-list-item"><img class="bestsellers-item-pic" src="./img/pic13.png" alt="sofa">
+                    <p class="bestsellers-item-desc">The minimalist sofa</p>
+                    <h3 class="bestsellers-item-price">650$</h3>
+                </li>
+            </ul>
+        </section>
+        <section class="client-reviews">
+            <h2 class="client-reviews-title">Clients Reviews</h2>
+            <ul class="client-reviews-list">
+                <li class="client-reviews-item"><img class="client-reviews-pfp" src="./img/pfpA.png" alt="Wm">
+                    <h3 class="client-reviews-name">Cassandra Dream</h3>
+                    <p class="client-reviews-date">1 week ago</p>
+                    <p class="client-reviews-text">I was blown away by the quality and <br>
+                        craftsmanship of the furniture I received <br>
+                        from this company. Each piece was unique <br>
+                        and beautifully designed, and you can tell <br>
+                        that a lot of thought and care goes into every <br>
+                        detail. </p>
+                </li>
+                <li class="client-reviews-item"><img class="client-reviews-pfp" src="./img/pfpM.png" alt="Mm">
+                    <h3 class="client-reviews-name">James Williams</h3>
+                    <p class="client-reviews-date">A week ago</p>
+                    <p class="client-reviews-text">The "Minimal" furniture set is a fantastic <br>
+                        addition to my home. It boasts a minimalist <br>
+                        design, enhancing the feel and look of my <br>
+                        living space. The sturdy construction is <br>
+                        worth noting too, which speaks volumes <br>
+                        about its durability.</p>
+                </li>
+                <li class="client-reviews-item"><img class="client-reviews-pfp" src="./img/Pfp3.png" alt="Wm">
+                    <h3 class="client-reviews-name">Emily Watson</h3>
+                    <p class="client-reviews-date">3 weeks ago</p>
+                    <p class="client-reviews-text">The "Minimal" furniture set has far exceeded <br>
+                        my expectations. The sleek design combined <br>
+                        with the high-quality materials have not only <br>
+                        added an exceptional aesthetic to my space <br>
+                        but also offered an uncompromising <br>
+                        standard of comfort.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="newsletter">
+            <form class="newsletter-form">
+                <h2 class="newsletter-title">Newsletter</h2>
+                <p class="newsletter-desc">Every week we will send you new designs and information about <br>
+                 sales.</p>
+                 <input class="newsletter-input-name" type="text" placeholder="Name">
+                 <input class="newsletter-input-email" type="email" placeholder="E-mail">
+                 <div class="newsletter-checkbox-wrapper"><span>Agree to subscribe to the newsletter</span><input class="newsletter-input-checkbox" type="checkbox"></div>
+                 <button class="newsletter-button" type="submit">Send</button>
+            </form>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="footer-group">
+            <img class="logo-footer" src="./img/logowhite.png" alt="logo">
+            <p class="footer-location">Obolonsky Prospect, 14, Kyiv</p>
+            <p class="footer-date-work">Daily 10:00-21:00</p>
+        </div>
+        <div class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="footer-nav-item"><a class="footer-nav-link" href="#">About us</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="#">Our products</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="#">Prices</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="#">Bestsellers</a></li>
+                <li class="footer-nav-item"><a class="footer-nav-link" href="#">Reviews</a></li>
+            </ul>
+            <a class="footer-nav-phone" href="tel:+380669384758">+380669384758</a>
+            <a class="footer-nav-phone" href="tel:+380679384758">+380679384758</a>
+            <a class="footer-nav-email" href="minimal.furniture@gmail.com">minimal.furniture@gmail.com</a>
+        </div>
+        <div class="footer-socials">
+            <a class="footer-socials-link" href="#"><img class="footer-socials-link-pic" src="./img/facebook.svg" alt="facebook"></a>
+            <a class="footer-socials-link" href="#"><img class="footer-socials-link-pic" src="./img/insta.svg" alt="insta"></a>
+            <a class="footer-socials-link" href="#"><img class="footer-socials-link-pic" src="./img/youtube.svg" alt="YT"></a>
+        </div>
+        <div class="footer-warn">
+            <p class="footer-warn-desc">By using this website, you agree to the Terms of Service and Privacy Policy</p>
+        </div>
+    </footer>
 </body>
 </html>
