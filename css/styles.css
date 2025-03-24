@@ -43,6 +43,11 @@
     color: var(--blue-font);
 }
 
+.header-nav-link:hover {
+    color: #7a7a7a;
+    transition: 1s;
+}
+
 .header-nav-list {
     gap: 30px;
 }
@@ -289,6 +294,7 @@
 
 
 .client-reviews-name {
+    margin: 0;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 20px;
@@ -298,22 +304,23 @@
 }
 
 .client-reviews-date {
+    margin: 0;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    text-align: center;
     color: var(--blue-font);
     opacity: 0.8;
 }
 
 .client-reviews-text {
+    margin: 0;
+    margin-top: 20px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     color: var(--blue-font);
-    margin: 0;
 }
 
 .client-reviews-item {
@@ -322,10 +329,6 @@
     background-color: var(--white);
     padding: 32px 32px 32px;
     box-sizing: border-box;
-}
-
-.client-reviews-pfp {
-    margin: 36px 0 0 32px;
 }
 
 .client-info {
@@ -385,6 +388,9 @@
 
 .newsletter-input-wrapper {
     margin-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .checkbox-text {
@@ -468,6 +474,21 @@
     color: var(--white);
 }
 
+.footer-nav-link:hover {
+    color: #7a7a7a;
+    transition: 0.5s;
+}
+
+.footer-nav-phone:hover{
+    color: #7a7a7a;
+    transition: 0.5s;
+}
+
+.footer-nav-email:hover {
+    color: #7a7a7a;
+    transition: 0.5s;
+}
+
 .footer-nav-phone {
     font-family: var(--font-family);
     font-weight: 400;
@@ -498,6 +519,7 @@
 .footer-nav-list {
     list-style: none;
     display: flex;
+    gap: 30px;
     margin-top: 48px;
 }
 
