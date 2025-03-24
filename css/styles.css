@@ -521,6 +521,7 @@
     display: flex;
     gap: 30px;
     margin-top: 48px;
+    padding: 0;
 }
 
 .footer-group {
@@ -549,7 +550,6 @@
 }
 
 .footer-contacts {
-    margin-left: 87px;
     margin-top: 27px;
     display: flex;
     gap: 82px;
@@ -564,7 +564,7 @@
 }
 
 .footer-socials {
-    margin-left: 286px;
+    margin-left: 220px;
     margin-top: 36px;
 }
 
@@ -576,4 +576,8 @@
 
 .footer-warn {
     margin-left: 412px;
+}
+
+.footer-nav {
+    margin-left: 90px;
 }
